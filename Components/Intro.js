@@ -3,14 +3,14 @@ import Image from "next/image"
 export default function Intro(){
   return(
     <div className="container mx-auto  p-5 md:p-10">
-        <div className="intro bg-[url('/intro-bg.png')] bg-repeat my-7 p-5 h-[600px] text-[#FFFFFF] flex flex-col  rounded-full mx-auto">
+        <div className="intro bg-[url('/tile.png')] bg-repeat bg-[length:32px_32px] bg-contain  w-full border border-green-500 my-7 p-3 h-[100%] text-[#FFFFFF] flex flex-col py-7 rounded-full mx-auto">
 
               <div className="image mt-3 mx-auto">
-                  <Image className="rounded-full" src= "/Ellipse 6.png" width={202} height={197} alt="sagittaerys"/>
+                  <Image className="rounded-full" src= "/Chibi Me!.png" width={202} height={197} alt="sagittaerys"/>
               </div>
               <div className="name text-center py-3 space-y-2">
-                  <h2 className="text-[30px] font-bold">Olamilekan Aremu</h2>
-                  <p className="text-[14px] text-red-600 font-semibold">Creative Software Developer</p>
+                  <h2 className="text-[28px] font-bold">Olamilekan Aremu</h2>
+                  <p className="text-[14px] text-[#612f74] font-semibold">Creative Software Developer</p>
               </div>
 
               <div className="text-center mx-auto my-4 text-[14px] intro-description md:max-w-[793px]">
