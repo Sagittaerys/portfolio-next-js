@@ -25,22 +25,22 @@ export default function Header() {
 
       <div className="hidden md:block">
         <div className="nav-list w-[65%] flex items-center text-[15px] text-[#C1C1C1] items-baseline space-x-5 ">
-          <Link className="hover:text-red-600" href="/">
+          <Link className="hover:text-[#A78BFA]" href="/">
             Home
           </Link>
 
-          <Link className="hover:text-red-600" href="#about">
+          <Link className="hover:text-[#A78BFA]" href="#about">
             About
           </Link>
 
-          <Link className="hover:text-red-600" href="#projects">
+          <Link className="hover:text-[#A78BFA]" href="#projects">
             Projects
           </Link>
 
-          <Link className="hover:text-red-600" href="#contact">
+          <Link className="hover:text-[#A78BFA]" href="#contact">
             Services
           </Link>
-          <Link className="hover:text-red-600" href="#contact">
+          <Link className="hover:text-[#A78BFA]" href="#contact">
             Resume
           </Link>
         </div>
@@ -49,7 +49,7 @@ export default function Header() {
       <div className="nav-list w-[25%] hidden  md:block">
         <div className="flex justify-between items-center text-[#FFFFFF] ">
           <Link href="#contact">
-            <button className="px-4 py-1 hover:bg-red-600 border border-red-600 text-[#FFFFFF] text-[15px] rounded-md">
+            <button className="px-4 py-1 hover:bg-[#A78BFA]  border border-[#A78BFA] text-[#FFFFFF] text-[15px] rounded-md">
               Contact Me
             </button>
           </Link>
@@ -100,47 +100,38 @@ export default function Header() {
         <div className="nav-links text-center px-2 pt-2 pb-3 space-y-1 sm:px-3 text-[15px] text-[#FFFFFF] bg-[#1E1E1E]">
           <Link
             href="/"
-            className="hover:text-red-600 block px-3 py-2 "
+            className="hover:text-[#A78BFA] block px-3 py-2 "
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             href="#about"
-            className="hover:text-red-600 block px-3 py-2"
+            className="hover:text-[#A78BFA] block px-3 py-2"
             onClick={() => setIsOpen(false)}
           >
             About
           </Link>
           <Link
             href="#projects"
-            className="hover:text-red-600 block px-3 py-2"
+            className="hover:text-[#A78BFA] block px-3 py-2"
             onClick={() => setIsOpen(false)}
           >
             Projects
           </Link>
           <Link
             href="#services"
-            className="hover:text-red-600 block px-3 py-2"
+            className="hover:text-[#A78BFA] block px-3 py-2"
             onClick={() => setIsOpen(false)}
           >
             Services
           </Link>
           <Link
             href="#resume"
-            className="hover:text-red-600 block px-3 py-2"
+            className="hover:text-[#A78BFA] block px-3 py-2"
             onClick={() => setIsOpen(false)}
           >
             Resume
-          </Link>
-          <Link
-            href="#contact"
-            className="hover:bg-red-600"
-            onClick={() => setIsOpen(false)}
-          >
-            <button className="px-4 py-1 border border-red-600 text-[#FFFFFF] text-[15px] rounded-md">
-              Contact Me
-            </button>
           </Link>
         </div>
       </div>
