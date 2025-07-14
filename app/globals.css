@@ -27,3 +27,7 @@ body{
 .name, .intro-description{
   font-family: 'Poppins', serif;
 }
+
+.contents{
+  font-family: 'Inter', serif;
+}

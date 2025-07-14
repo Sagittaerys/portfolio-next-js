@@ -9,15 +9,15 @@ export default function Intro(){
                   <Image className="rounded-full" src= "/Chibi Me!.png" width={202} height={197} alt="sagittaerys"/>
               </div>
               <div className="name text-center py-3 space-y-2">
-                  <h2 className="text-[28px] font-bold">Olamilekan Aremu</h2>
-                  <p className="text-[14px] text-[#A78BFA] font-semibold">Creative Software Developer</p>
+                  <h2 className="text-[28px] md:text-[63px] font-bold">Olamilekan Aremu</h2>
+                  <p className="text-[14px] md:text-[26px] text-[#A78BFA] font-semibold">Creative Software Developer</p>
               </div>
 
-              <div className="text-center mx-auto my-4 text-[14px] intro-description md:max-w-[793px]">
-                  <p>As a dedicated fullstack developer specializing in both frontend and backend technologies, I excel at creating seamless digital experiences through clean code, innovative solutions, and a deep growing understanding of the entire software development lifecycle.</p>
+              <div className="text-center mx-auto my-4 md:text-[19px] text-[14px] intro-description md:max-w-[793px]">
+                  <p>As a dedicated fullstack developer specializing in both frontend and backend technologies, I excel at creating seamless digital experiences through clean code, innovative solutions, and a growing understanding of the entire software development lifecycle.</p>
               </div>
 
-              <button className="rounded-full name hover:bg-[#A78BFA] mx-auto mt-4 text-[14px] border border-[#A78BFA] w-[164px] h-[41px]">
+              <button className="rounded-full md:text-[15px] nav-list hover:bg-[#A78BFA] mx-auto mt-4 text-[13px] border border-[#A78BFA] w-[164px] h-[41px]">
                   Contact Me
               </button>
         </div>

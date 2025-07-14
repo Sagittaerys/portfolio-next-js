@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { IoLogoGithub } from "react-icons/io5";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Header() {
       <div className="relative flex justify-between md:max-w-[100%] items-center">
       <Link className="w-[15%] flex items-center" href="/">
         <h1 className="test-font tracking-wider text-[24px] font-extrabold text-[#FFFFFF] ">
-          sagittaerys!
+          Sagittaerys!
         </h1>
           <div>⚡</div>
       </Link>
@@ -37,10 +38,10 @@ export default function Header() {
             Projects
           </Link>
 
-          <Link className="hover:text-[#A78BFA]" href="#contact">
+          <Link className="hover:text-[#A78BFA]" href="#services">
             Services
           </Link>
-          <Link className="hover:text-[#A78BFA]" href="#contact">
+          <Link className="hover:text-[#A78BFA]" href="#resume">
             Resume
           </Link>
         </div>
@@ -54,9 +55,15 @@ export default function Header() {
             </button>
           </Link>
 
-          <button className="">
-            <Image src="/Group.png" height={30} width={30} alt="color-mode" />
+          <a href="https://github.com/sagittaerys">
+
+          <button className="name px-3 py-1 text-[#C1C1C1] hover:text-white  flex items-center gap-3">
+              <div> <IoLogoGithub className="text-[30px]" /> </div>
+              <div> github</div>
           </button>
+
+          </a>
+
         </div>
       </div>
 
