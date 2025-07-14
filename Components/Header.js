@@ -12,11 +12,13 @@ export default function Header() {
   };
 
   return (
-    <div className="container relative  md:max-w-[100%] md:px-10 md:py-7 flex justify-between  items-center border border-red-600 p-5">
-      <Link className="w-[15%]" href="/">
+    <div className="container sticky  top-0 bg-[#1E1E1E] md:px-10 md:py-7  p-5">
+      <div className="relative flex justify-between md:max-w-[100%] items-center">
+      <Link className="w-[15%] flex items-center" href="/">
         <h1 className="test-font tracking-wider text-[24px] font-extrabold text-[#FFFFFF] ">
           sagittaerys!
         </h1>
+          <div>⚡</div>
       </Link>
 
       {/* Desktop Menu */}
@@ -47,7 +49,7 @@ export default function Header() {
       <div className="nav-list w-[25%] hidden  md:block">
         <div className="flex justify-between items-center text-[#FFFFFF] ">
           <Link href="#contact">
-            <button className="px-4 py-1 border border-red-600 text-[#FFFFFF] text-[15px] rounded-md">
+            <button className="px-4 py-1 hover:bg-red-600 border border-red-600 text-[#FFFFFF] text-[15px] rounded-md">
               Contact Me
             </button>
           </Link>
@@ -60,7 +62,7 @@ export default function Header() {
 
       <button
         onClick={toggleMenu}
-        className="border p-2 border-red-600 md:hidden"
+        className="p-2  md:hidden"
       >
         <div className="w-[14px] h-[10px] flex items-center justify-center">
           <Image
@@ -93,11 +95,11 @@ export default function Header() {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } absolute z-20 top-15  right-0 md:hidden`}
+        } absolute z-20 top-10  right-0 md:hidden`}
       >
-        <div className="nav-links px-2 pt-2 pb-3 space-y-1 sm:px-3 text-[#FFFFFF] bg-[#1E1E1E]">
+        <div className="nav-links text-center px-2 pt-2 pb-3 space-y-1 sm:px-3 text-[15px] text-[#FFFFFF] bg-[#1E1E1E]">
           <Link
-            href="#home"
+            href="/"
             className="hover:text-red-600 block px-3 py-2 "
             onClick={() => setIsOpen(false)}
           >
@@ -118,13 +120,30 @@ export default function Header() {
             Projects
           </Link>
           <Link
-            href="#contact"
+            href="#services"
             className="hover:text-red-600 block px-3 py-2"
             onClick={() => setIsOpen(false)}
           >
-            Contact
+            Services
+          </Link>
+          <Link
+            href="#resume"
+            className="hover:text-red-600 block px-3 py-2"
+            onClick={() => setIsOpen(false)}
+          >
+            Resume
+          </Link>
+          <Link
+            href="#contact"
+            className="hover:bg-red-600"
+            onClick={() => setIsOpen(false)}
+          >
+            <button className="px-4 py-1 border border-red-600 text-[#FFFFFF] text-[15px] rounded-md">
+              Contact Me
+            </button>
           </Link>
         </div>
+      </div>
       </div>
     </div>
   );

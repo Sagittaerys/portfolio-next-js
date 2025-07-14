@@ -23,3 +23,7 @@ body{
 .nav-list{
   font-family: 'Montserrat', serif;
 }
+
+.name, .intro-description{
+  font-family: 'Poppins', serif;
+}
