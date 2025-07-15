@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div id="services" className="container p-5 md:p-10">
+    <div id="services" className=" container p-5 md:p-10">
       <div className="name text-center py-3 space-y-2">
         <h2 className="text-[24px] md:text-[45px] text-white font-extrabold">What I do</h2>
         <p className="text-[14px] md:text-[14px] text-[#A78BFA] font-semibold">
@@ -12,7 +12,7 @@ export default function Services() {
 
       <div className="contents my-4 md:text-[17px] gap-4 text-[13px] flex flex-col justify-evenly md:w-[100%] md:flex-row mx-auto text-white">
 
-    <div className="fade-in w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
+    <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] font-bold mb-3">
@@ -24,7 +24,7 @@ export default function Services() {
         </div>
     </div>
 
-    <div className="fade-in w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
+    <div className=" w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] md:font-semibold mb-3">
@@ -36,7 +36,7 @@ export default function Services() {
         </div>
     </div>
 
-    <div className="fade-in w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300">
+    <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] md:font-semibold mb-3">

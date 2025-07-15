@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <div className="container sticky  top-0 bg-[#1E1E1E] md:px-10 md:py-7  p-5">
+    <div className="container sticky z-10 top-0 bg-[#1E1E1E] md:px-10 md:py-7  p-5">
       <div className="relative flex justify-between md:max-w-[100%] items-center">
       <Link className="w-[15%] flex items-center" href="/">
         <h1 className="test-font tracking-wider text-[24px] font-extrabold text-[#FFFFFF] ">
