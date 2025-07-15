@@ -12,10 +12,10 @@ export default function Services() {
 
       <div className="contents my-4 md:text-[17px] gap-4 text-[13px] flex flex-col justify-evenly md:w-[100%] md:flex-row mx-auto text-white">
 
-    <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
+    <div className="fade-in w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
-            <h2 className="md:text-[17px] text-[14px] md:font-semibold mb-3">
+            <h2 className="md:text-[17px] text-[14px] font-bold mb-3">
                 Frontend Development
             </h2>
             <p className="md:font-regular text-[13px] md:text-[15px]">
@@ -24,7 +24,7 @@ export default function Services() {
         </div>
     </div>
 
-    <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
+    <div className="fade-in w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] md:font-semibold mb-3">
@@ -36,7 +36,7 @@ export default function Services() {
         </div>
     </div>
 
-    <div className=" w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300">
+    <div className="fade-in w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] md:font-semibold mb-3">

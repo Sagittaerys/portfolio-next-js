@@ -2,7 +2,7 @@
 
 export default function AboutMe() {
   return (
-    <div id="about" className="container p-5 md:p-10">
+    <div id="about" className="container p-5 md:p-10" >
       <div className="name text-center py-3 space-y-2">
         <h2 className="text-[24px] md:text-[45px] text-white font-extrabold">About Me</h2>
         <p className="text-[14px] md:text-[14px] text-[#A78BFA] font-semibold">
@@ -12,7 +12,7 @@ export default function AboutMe() {
       <div id="resume" className="contents my-4 md:text-[17px] text-[13px] flex flex-col gap-3 md:max-w-[840px] mx-auto text-center text-white">
         <p>
           Hi! I'm <span className="text-[#A78BFA]">Olamilekan</span>, a software developer who builds web applications
-          from front to back. I work with modern technologies like React, Next.js
+          from front to back. I work with modern technologies like React, Next.js,
           Node.js, Express.js, and cloud platforms to create scalable solutions that
           solve real problems. 
         </p>
