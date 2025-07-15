@@ -9,7 +9,7 @@ export default function AboutMe() {
           Get to know me
         </p>
       </div>
-      <div id="resume" className="contents my-4 md:text-[17px] text-[13px] flex flex-col gap-3 md:max-w-[840px] mx-auto text-center text-white">
+      <div id="resume" className="fade-in contents my-4 md:text-[17px] text-[13px] flex flex-col gap-3 md:max-w-[840px] mx-auto text-center text-white">
         <p>
           Hi! I'm <span className="text-[#A78BFA]">Olamilekan</span>, a software developer who builds web applications
           from front to back. I work with modern technologies like React, Next.js,
