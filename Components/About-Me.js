@@ -1,3 +1,5 @@
+"use client";
+
 export default function AboutMe() {
   return (
     <div id="about" className="container p-5 md:p-10">
@@ -7,9 +9,9 @@ export default function AboutMe() {
           Get to know me
         </p>
       </div>
-      <div className="contents my-4 md:text-[17px] text-[13px] flex flex-col gap-3 md:max-w-[840px] mx-auto text-center text-white">
+      <div id="resume" className="contents my-4 md:text-[17px] text-[13px] flex flex-col gap-3 md:max-w-[840px] mx-auto text-center text-white">
         <p>
-          Hi! I'm <span className="text-[#A78BFA]">Olamilekan</span>, a fullstack developer who builds web applications
+          Hi! I'm <span className="text-[#A78BFA]">Olamilekan</span>, a software developer who builds web applications
           from front to back. I work with modern technologies like React, Next.js
           Node.js, Express.js, and cloud platforms to create scalable solutions that
           solve real problems. 
@@ -28,7 +30,7 @@ export default function AboutMe() {
           Let's chat about your project!
         </p>
 
-        <button className="rounded-full nav-list hover:bg-[#A78BFA] mx-auto mt-4 text-[14px] border border-[#A78BFA] w-[164px] h-[41px]">
+        <button  onClick={ () => window.open('/Olamilekan Aremu CV II.pdf', '_blank') } className="rounded-full nav-list hover:bg-[#A78BFA] mx-auto mt-4 text-[14px] border border-[#A78BFA] w-[164px] h-[41px]">
                   Download Resume
         </button>
 
