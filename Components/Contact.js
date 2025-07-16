@@ -27,7 +27,7 @@ export default function Contact(){
 
 
   return(
-    <div id="contact" className="container p-5 md:p-10">
+    <div id="contact" className="container mt-10 p-5 md:p-10">
         <div className="name text-center py-3 space-y-2">
                   <h2 className="text-[24px] md:text-[45px] text-white font-extrabold">Get In Touch</h2>
                   <p className="text-[14px] md:text-[14px] text-[#A78BFA] font-semibold">
