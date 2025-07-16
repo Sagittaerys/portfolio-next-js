@@ -27,7 +27,7 @@ export default function Services() {
     <div className=" w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
-            <h2 className="md:text-[17px] text-[14px] md:font-semibold mb-3">
+            <h2 className="md:text-[17px] text-[14px] font-bold mb-3">
                 Backend Development
             </h2>
             <p className="md:font-regular text-[13px] md:text-[15px]">
@@ -39,7 +39,7 @@ export default function Services() {
     <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300">
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
-            <h2 className="md:text-[17px] text-[14px] md:font-semibold mb-3">
+            <h2 className="md:text-[17px] text-[14px] font-bold mb-3">
                 Cloud Computing
             </h2>
             <p className="md:font-regular text-[13px] md:text-[15px]">

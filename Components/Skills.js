@@ -1,4 +1,4 @@
-import SkillsList from "./SkillList";
+import SkillsList from "./SkillSection/SkillList";
 
 export default function Skills(){
   return(

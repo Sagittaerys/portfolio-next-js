@@ -17,7 +17,7 @@ export default function Intro(){
                   <p>As a dedicated software developer specializing in both frontend and backend technologies, I excel at creating seamless digital experiences through clean code, innovative solutions, and a growing understanding of the entire software development lifecycle.</p>
               </div>
 
-              <button className="rounded-full md:text-[15px] nav-list hover:bg-[#A78BFA] mx-auto mt-4 text-[13px] border border-[#A78BFA] w-[164px] h-[41px]">
+              <button className="rounded-full hover:scale-105 transition-transform duration-300 md:text-[15px] nav-list hover:bg-[#A78BFA] mx-auto mt-4 text-[13px] border border-[#A78BFA] w-[164px] h-[41px]">
                   Contact Me
               </button>
         </div>

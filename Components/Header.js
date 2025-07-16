@@ -50,7 +50,7 @@ export default function Header() {
       <div className="nav-list w-[25%] hidden  md:block">
         <div className="flex justify-between items-center text-[#FFFFFF] ">
           <Link href="#contact">
-            <button className="px-4 py-1 hover:bg-[#A78BFA]  border border-[#A78BFA] text-[#FFFFFF] text-[15px] rounded-md">
+            <button className="px-4 py-1 hover:bg-[#A78BFA] hover:scale-105 transition-transform duration-300  border border-[#A78BFA] text-[#FFFFFF] text-[15px] rounded-md">
               Contact Me
             </button>
           </Link>
