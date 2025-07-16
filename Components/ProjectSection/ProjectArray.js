@@ -5,7 +5,7 @@ const ProjectArray = [
     mobileImage: "/Sagittaerean-Mobile.png",
     name: "Sagittaerean Mall",
     description:
-      "Sagittaerean Mall is a sleek, modern e-commerce web application designed to provide a seamless online shopping experience. The platform features a responsive, visually rich interface for browsing, filtering, and purchasing products across multiple categories like Best Fashion, Food, and Electronics. With dynamic product pages, a functional shopping cart, and real-time interactions, the project showcases a complete user flow from landing to checkout.",
+      "Sagittaerean Mall is a sleek, modern e-commerce web application designed to provide a seamless online shopping experience. The platform features a responsive, visually rich interface for browsing, filtering, and purchasing products across multiple categories like Fashion, Food, and Electronics. With dynamic product pages, a functional shopping cart, and real-time interactions, the project showcases a complete user flow from landing to checkout.",
     cardDescription:
       "Sagittaerean Mall is a sleek, modern e-commerce web application designed to provide a seamless online shopping....",
     techStack: [

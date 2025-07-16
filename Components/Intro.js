@@ -1,8 +1,9 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Intro(){
   return(
-    <div className="container mx-auto  p-5 md:p-10">
+    <div className="container fade-in mx-auto  p-5 md:p-10">
         <div className="intro bg-[url('/tile.png')] bg-repeat bg-[length:32px_32px] bg-center  w-full my-7 p-3 h-[100%] text-[#FFFFFF] flex flex-col py-7 rounded-full mx-auto">
 
               <div className="image mt-3 mx-auto">
@@ -17,9 +18,12 @@ export default function Intro(){
                   <p>As a dedicated software developer specializing in both frontend and backend technologies, I excel at creating seamless digital experiences through clean code, innovative solutions, and a growing understanding of the entire software development lifecycle.</p>
               </div>
 
-              <button className="rounded-full hover:scale-105 transition-transform duration-300 md:text-[15px] nav-list hover:bg-[#A78BFA] mx-auto mt-4 text-[13px] border border-[#A78BFA] w-[164px] h-[41px]">
+            <Link className="mx-auto" href= "#contact">
+              <button className="rounded-full hover:scale-105 transition-transform duration-300 md:text-[15px] nav-list hover:bg-[#A78BFA]  mt-4 text-[13px] border border-[#A78BFA] w-[164px] h-[41px]">
                   Contact Me
               </button>
+            
+            </Link>
         </div>
     </div>
   )

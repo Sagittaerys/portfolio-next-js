@@ -4,6 +4,8 @@ import AboutMe from "@/Components/About-Me";
 import Services from "@/Components/Services";
 import Skills from "@/Components/Skills";
 import Projects from "@/Components/Projects";
+import Contact from "@/Components/Contact";
+
 export default function Home() {
   return (
     <div>
@@ -12,6 +14,7 @@ export default function Home() {
         <Services />
         <Skills />
         <Projects />
+        <Contact />
     </div>
   );
 }

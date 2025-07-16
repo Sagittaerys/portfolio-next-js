@@ -25,7 +25,10 @@ export default function ProjectPage() {
           <h3 className="nav-list mb-4 font-semibold md:text-2xl  text-xl">
             Description
           </h3>
+          <div className="leading-relaxed">
           {monarch.description}
+
+          </div>
 
           <hr className="my-6" />
 
@@ -52,7 +55,7 @@ export default function ProjectPage() {
             rel="noopener noreferrer"
             className="flex justify-center"
           >
-            <button className="px-4 flex items-center justify-center gap-4 py-3 nav-list rounded-md border border-[#A78BFA] text-sm hover:bg-[#A78BFA]">
+            <button className="px-4 flex items-center justify-center gap-4 py-3 nav-list rounded-md border border-[#A78BFA] text-sm hover:bg-[#A78BFA] hover:scale-105 transition-transform duration-300">
               <p>Visit Project</p>
               <FaExternalLinkAlt />
             </button>

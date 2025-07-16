@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function AboutMe() {
   return (
@@ -33,6 +34,26 @@ export default function AboutMe() {
         <button  onClick={ () => window.open('/Olamilekan Aremu CV II.pdf', '_blank') } className="rounded-full nav-list hover:bg-[#A78BFA] mx-auto mt-4 text-[14px] border border-[#A78BFA] w-[164px] h-[41px] hover:scale-105 transition-transform duration-300">
                   Download Resume
         </button>
+
+        <div className="h-[250px] relative my-10 flex flex-col w-full  group">
+            <div className="absolute top-0 left-[20%] bg-white px-2 pt-2 -rotate-12  rounded-lg overflow-hidden transition-all duration-500 group-hover:-rotate-12 group-hover:-translate-x-4 group-hover:scale-105">
+
+              <div className="w-[200px] h-[200px]">
+                  <Image className="object-cover rounded-lg w-full h-full" src="/sage_2.jpg" width={200} height={200} alt="sagittaerys" />
+              </div>
+
+              <span className="text-xs flex justify-center py-1 pb-3 italic text-black w-full text-center">sagittaerys_</span>
+            </div>
+
+            <div className="absolute top-10 right-[20%] bg-white px-2 pt-2 rotate-12 rounded-lg overflow-hidden transition-all duration-500 group-hover:rotate-12 group-hover:translate-x-4 group-hover:scale-105">
+
+              <div className="w-[200px] h-[200px]">
+                  <Image className="object-cover rounded-lg w-full h-full" src="/sage_.jpg" width={200} height={200} alt="sagittaerys" />
+              </div>
+
+              <span className="text-xs flex justify-center py-1 pb-3 italic text-black w-full text-center">@sagittaric</span>
+            </div>
+        </div>
 
       </div>
     </div>
