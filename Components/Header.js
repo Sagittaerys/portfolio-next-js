@@ -55,7 +55,7 @@ export default function Header() {
             </button>
           </Link>
 
-          <a href="https://github.com/sagittaerys">
+          <a href="https://github.com/sagittaerys" target="_blank" rel="noopener noreferrer">
 
           <button className="name px-3 py-1 text-[#C1C1C1] hover:text-white  flex items-center gap-3">
               <div> <IoLogoGithub className="text-[30px]" /> </div>
