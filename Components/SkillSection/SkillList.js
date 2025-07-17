@@ -8,7 +8,7 @@ export default function SkillsList(){
   const settings = {
     pauseOnHover: false,
     infinite: true,
-    speed: 250,
+    speed: 150,
     slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
@@ -23,7 +23,7 @@ export default function SkillsList(){
    };
 
   return(
-    <Slider {...settings} className=" flex flex-wrap gap-4 justify-evenly">
+    <Slider {...settings} className=" flex mt-8 flex-wrap gap-4 justify-evenly">
 
         
           
