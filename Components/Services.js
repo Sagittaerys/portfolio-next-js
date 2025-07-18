@@ -15,7 +15,7 @@ export default function Services() {
 
       <div className="contents my-4 md:text-[17px] gap-4 text-[13px] flex flex-col justify-evenly md:w-[100%] md:flex-row mx-auto text-white">
 
-    {/* <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300"> */}
+    
    
     <motion.div
     initial={{ y: 100, opacity: 0 }}
@@ -37,7 +37,7 @@ export default function Services() {
     </motion.div>
     {/* </div> */}
 
-    {/* <div className=" w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300"> */}
+  
     <motion.div
     initial={{ y: 100, opacity: 0 }}
   whileInView={{ y: 0, opacity: 1 }}
@@ -58,7 +58,7 @@ export default function Services() {
     </motion.div>
 
 
-    {/* <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300"> */}
+    
     <motion.div
     initial={{ y: 100, opacity: 0 }}
   whileInView={{ y: 0, opacity: 1 }}

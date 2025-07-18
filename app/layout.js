@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Olamilekan Aremu | Creative Software Developer",
+  icons: {
+    icon: '/favicon.png',
+  },
   description: "sagittaerys_",
 };
 
@@ -23,6 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+       
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
