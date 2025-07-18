@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Services() {
   return (
@@ -12,7 +15,15 @@ export default function Services() {
 
       <div className="contents my-4 md:text-[17px] gap-4 text-[13px] flex flex-col justify-evenly md:w-[100%] md:flex-row mx-auto text-white">
 
-    <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
+    {/* <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300"> */}
+   
+    <motion.div
+    initial={{ y: 100, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.2 }}
+  transition={{ duration: 0.6, delay: 0.1 }}
+    className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300"
+  >
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] font-bold mb-3">
@@ -22,9 +33,19 @@ export default function Services() {
                 Designing and building interactive, cross-device web applications with React, Next.js, and TypeScript while incorporating best-in-class UI/UX standards and performance optimization.
             </p>
         </div>
-    </div>
 
-    <div className=" w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300">
+    </motion.div>
+    {/* </div> */}
+
+    {/* <div className=" w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300"> */}
+    <motion.div
+    initial={{ y: 100, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.2 }}
+  transition={{ duration: 0.6, delay: 0.1 }}
+    className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300"
+  >
+        
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] font-bold mb-3">
@@ -34,9 +55,17 @@ export default function Services() {
                 Developing powerful backend systems and API solutions with Node.js, Express.js, and various database platforms, prioritizing system scalability and comprehensive security measures.
             </p>
         </div>
-    </div>
+    </motion.div>
 
-    <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300">
+
+    {/* <div className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:border-2 hover:border-[#A78BFA] hover:scale-105 transition-transform duration-300"> */}
+    <motion.div
+    initial={{ y: 100, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.2 }}
+  transition={{ duration: 0.6, delay: 0.1 }}
+    className="w-[100%] md:w-[30%] h-[273px] p-6 rounded-md cursor-pointer hover:scale-105 hover:border-2 hover:border-[#A78BFA] transition-transform duration-300"
+  >
         <div>
             <Image className="mb-3" src="/service-icon.png" width={44} height={44} alt="service-icon" />
             <h2 className="md:text-[17px] text-[14px] font-bold mb-3">
@@ -46,7 +75,7 @@ export default function Services() {
                 Configuring and managing distributed cloud systems, leveraging cloud service providers for high-performance application deployment and intelligent infrastructure management.
             </p>
         </div>
-    </div>
+    </motion.div>
 
 </div>
     </div>

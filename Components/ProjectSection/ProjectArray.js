@@ -19,6 +19,7 @@ const ProjectArray = [
       "Context API",
     ],
     visitProject: "https://sagittaerean-mall-e-commerce-web.vercel.app/",
+    visitRepo: "https://github.com/sagittaerys/e-commerce-web",
   },
   {
     id: 2,
@@ -38,6 +39,7 @@ const ProjectArray = [
       "GSAP",
     ],
     visitProject: "https://sagittaerys-portfolio.vercel.app/",
+    visitRepo: "https://github.com/sagittaerys/portfolio-next-js",
   },
 ];
 

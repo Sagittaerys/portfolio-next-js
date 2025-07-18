@@ -1,34 +1,40 @@
 "use client";
 
+import { motion} from "framer-motion";
+
+
 import SkillsCard from "./SkillsCard"
 import FullStackSkills from "./FullStackSkills"
-import Slider from "react-slick";
+
 
 export default function SkillsList(){
-  const settings = {
-    pauseOnHover: false,
-    infinite: true,
-    speed: 150,
-    slidesToShow: 8,
-    slidesToScroll: 1,
-    autoplay: true,
-    lazyLoad: "ondemand",
-    cssEase: "cubic-bezier(0.4, 0, 0.2, 1)",
-    responsive: [
-    {
-      breakpoint: 640, 
-      settings: "unslick" 
-    }
-  ]
-   };
+  
 
   return(
-    <Slider {...settings} className=" flex mt-8 flex-wrap gap-4 justify-evenly">
+    
+    <div className="overflow-hidden w-full">
 
+
+    
+    <motion.div 
+      className="flex mt-14 gap-4 w-max"
+        animate={{ x: ["0%", "-50%"] }}
+        transition={{
+          repeat: Infinity,
+          repeatType: "loop",
+          ease: "linear",
+          duration: 20,
+        }}
+    >
+
+      {FullStackSkills.map((Skills) => ( <SkillsCard key={Skills.id} {...Skills} /> ))}
+
+
+    </motion.div>
         
           
-          {FullStackSkills.map((Skills) => ( <SkillsCard key={Skills.id} {...Skills} /> ))}
     
-    </ Slider>
+   
+    </div>
   )
 }

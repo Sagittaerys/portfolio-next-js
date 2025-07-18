@@ -8,7 +8,7 @@ export default function Skills(){
         <p className="text-[14px] md:text-[14px] text-[#A78BFA] font-semibold">
           Technical Proficiency
         </p>
-        <div className="text-white w-full my-6 hide-scrollbar">
+        <div className="text-white w-full mt-6 hide-scrollbar">
           <SkillsList />
         </div>
       </div>
