@@ -9,7 +9,7 @@ export default function ProjectCard({
   cardDescription,
 }) {
   return (
-    <div className="md:w-[40%] container border border-[#A78BFA] rounded-xl   text-white name">
+    <div className="md:w-[30%] container border border-[#A78BFA] rounded-xl   text-white name">
       <div className="cursor-pointer">
         <div>
           <Image

@@ -1,6 +1,29 @@
 const ProjectArray = [
   {
     id: 1,
+    desktopImage: "/CodeStreak-Desktop.JPG",
+    mobileImage: "/Cod-Mobile.png",
+    name: "CodeStreak",
+    description:
+      "CodeStreak is a community-driven platform designed to empower software developers through consistent coding habits and community support. Developers connect their GitHub accounts to automatically track daily commit streaks, participate in a global leaderboard, and log reflections to foster personal growth. With features like GitHub API integration, a personalized profile page, and a reward system offering real incentives, CodeStreak aims to motivate developers with gamification and recognition.",
+    cardDescription:
+      "CodeStreak is a community-driven platform designed to empower software developers through consistent coding habits....",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "GitHub API (OAuth)",
+      "GitHub Login",
+      "React Activity Calendar",
+      "Framer Motion",
+      "Context API",
+    ],
+    visitProject: "https://code-streak-beta.vercel.app/",
+    visitRepo: "https://github.com/sagittaerys/CodeStreak",
+  },
+  {
+    id: 2,
     desktopImage: "/Sagittaerean-Screenshot.JPG",
     mobileImage: "/Sagittaerean-Mobile.png",
     name: "Sagittaerean Mall",
@@ -22,7 +45,7 @@ const ProjectArray = [
     visitRepo: "https://github.com/sagittaerys/e-commerce-web",
   },
   {
-    id: 2,
+    id: 3,
     desktopImage: "/Portfolio-Screenshot.JPG",
     mobileImage: "/Portfolio-Mobile.png",
     name: "My Portfolio",
